@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.uca.app3.ui.home.HomeFragment"
+        android:name="com.example.internetradio_khalil.HomeFragmentActivity"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_config"
-        android:name="com.uca.app3.ui.dashboard.ConfigFragment"
+        android:name="com.example.internetradio_khalil.ConfigFragmentActivity"
         android:label="@string/title_config"
         tools:layout="@layout/fragment_config" />
 
     <fragment
         android:id="@+id/navigation_channel"
-        android:name="com.uca.app3.ui.notifications.ChannelFragment"
+        android:name="com.example.internetradio_khalil.ChannelFragmentActivity"
         android:label="@string/title_channel"
         tools:layout="@layout/fragment_channel" />
 </navigation>

@@ -6,29 +6,31 @@
 
     <TextView
         android:layout_width="wrap_content"
+        android:text="Internet Radio UCA"
         android:layout_gravity="center"
         android:textSize="26sp"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_height="0dp"
-        android:text="Internet Radio"
         android:layout_weight="0.3" />
 
     <ViewFlipper
         android:id="@+id/flipper"
-        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.4"
+        android:layout_width="match_parent"
         android:gravity="center" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_gravity="center"
+        android:text="Create Your Own Channels"
         android:gravity="top"
         android:textStyle="bold"
         android:textSize="20sp"
-        android:text="Create Your Own Channels"
+
         android:layout_height="0dp"
         android:layout_weight="0.3" />
 
 </LinearLayout>
+

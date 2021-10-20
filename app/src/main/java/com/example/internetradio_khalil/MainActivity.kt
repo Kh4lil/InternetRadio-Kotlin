@@ -12,6 +12,10 @@ import androidx.navigation.ui.setupWithNavController
 
 class MainActivity : AppCompatActivity() {
 
+    //Fragments:
+    // CHANNEL
+    //CONFIG
+    //HOME
     private lateinit var bindingControl: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
